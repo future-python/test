@@ -1,0 +1,13 @@
+#Online Compiler URL:https://onlinegdb.com/SyUmYvK2N
+
+print("Palindrome Check")
+string = input("Enter string to check palindrome :")
+print("Entered string :",string)
+revstr = ""
+revstr = revstr.join(reversed(string))
+print("Reversed string :",revstr)
+
+if revstr == string:
+    print("Entered String is a Palindrome")
+else:
+    print("Entered String is not a Palindrome")
