@@ -4,8 +4,8 @@ x = 1
 
 while(x == 1):
         
-    a = int(input("Enter value of a:"))
-    b = int(input("Enter value of b:"))
+    a = float(input("Enter value of a:"))
+    b = float(input("Enter value of b:"))
 
     if a>b:
         print("a greater than b")
